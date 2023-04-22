@@ -1,0 +1,40 @@
+#request-leave {
+  .ant-radio-button-wrapper {
+    display: inline-table;
+    margin-bottom: 20px;
+  }
+  .ant-radio-wrapper {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    // display: flex;
+    align-items: center;
+    font-size: 18px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    .ant-radio-inner {
+      display: none;
+    }
+  }
+  img {
+    width: 100%;
+    height: 190px;
+    padding: 5px;
+    padding-top: 10px;
+    margin: 0 !important;
+  }
+  p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .selected {
+    background-color: #000;
+    p {
+      color: #fff;
+    }
+    span {
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+#InputItem {
+  .input-action {
+    display: none;
+  }
+  &:hover .input-action {
+    display: block;
+  }
+}
+
+#SectionCard {
+  .section-action {
+    display: none;
+  }
+  &:hover .section-action {
+    display: block;
+  }
+}
+
+#TemplateOption {
+  position: relative;
+  .input-action {
+    display: none;
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    padding: 5px;
+    z-index: 9;
+    background: #fff;
+  }
+  &:hover .input-action {
+    display: block;
+  }
+}
+
+#PermitUpload {
+  .ant-upload.ant-upload-select {
+    width: 100%;
+  }
+}
+
+.permit-btn {
+  .ant-select-selector {
+    background: transparent !important;
+    border: none !important;
+    padding: 0px !important;
+    height: auto !important;
+    box-shadow: none;
+  }
+}
